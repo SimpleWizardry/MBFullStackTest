@@ -28,9 +28,11 @@
 </template>
 
 <script lang="js">
-    import Vue from 'vue';
+    //import Vue from 'vue';
+    import { defineComponent } from 'vue';
 
-    export default Vue.extend({
+    export default defineComponent({
+    // export default Vue.extend({
         data() {
             return {
                 loading: false,
